@@ -1,0 +1,35 @@
+{
+  "name": "fastify-minio",
+  "version": "1.0.0",
+  "description": "Plugin to share a common MinIo clinet across Fastify",
+  "author": "Sabs Raad <sabsraad@gmail.com>",
+  "license": "MIT",
+  "main": "dist/plugin.js",
+  "types": "dist/plugin.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run lint && npx tap --ts",
+    "lint": "npx prettier -c -w  src/**/*.{js,jsx,ts,tsx} && npx eslint --fix src/**/*.{js,jsx,ts,tsx}",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "fastify-plugin": "^3.0.0",
+    "fastify-redis": "^4.3.2",
+    "minio": "^7.0.19"
+  },
+  "devDependencies": {
+    "@types/minio": "^7.0.10",
+    "@types/node": "^16.10.2",
+    "@types/tap": "^15.0.5",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "fastify": "^3.22.0",
+    "husky": "^7.0.0",
+    "prettier": "^2.4.1",
+    "tap": "^15.0.10",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
