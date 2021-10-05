@@ -2,7 +2,15 @@
   "name": "fastify-minio",
   "version": "1.0.0",
   "description": "Plugin to share a common MinIo clinet across Fastify",
-  "author": "Sabs Raad <sabsraad@gmail.com>",
+  "author": {
+    "email": "sabsraad@gmail.com",
+    "name": "Sabs Raad"
+  },
+  "keywords": [
+    "fastify",
+    "minio",
+    "fastify-plugin"
+  ],
   "license": "MIT",
   "main": "dist/plugin.js",
   "types": "dist/plugin.d.ts",
@@ -14,7 +22,6 @@
   },
   "dependencies": {
     "fastify-plugin": "^3.0.0",
-    "fastify-redis": "^4.3.2",
     "minio": "^7.0.19"
   },
   "devDependencies": {
