@@ -11,6 +11,14 @@
     "minio",
     "fastify-plugin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MRsabs/fastify-minio"
+  },
+  "homepage": "https://github.com/MRsabs/fastify-minio#readme",
+  "bugs": {
+    "url": "https://github.com/MRsabs/fastify-minio/issues"
+  },
   "license": "MIT",
   "main": "dist/plugin.js",
   "types": "dist/plugin.d.ts",
